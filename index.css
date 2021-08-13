@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(127 255 217);
+    color:rgb(155, 129, 129);
+    font-family: sans-serif;
+    
+}
+
+header,form{
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+input{
+    padding:0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+button{
+    padding:0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+    cursor: pointer;
+    color: rgb(127 255 217);
+   
+}
+
+.todocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+  .todo{
+    margin: 0.5rem;
+    background-color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#todolist{
+    min-width: 30%;
+    list-style: none;
+}
+
+.trashbtn{
+   padding: 0.6rem;
+   border: none;
+   font-size: 0.8rem;
+   cursor: pointer;
+   
+}
+
+#allDelete{
+    display: flex;
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    width: 5vw;
+    height: 5vh;
+    justify-content: center;
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+    align-items: center;
+    border-radius: 5px;
+}
